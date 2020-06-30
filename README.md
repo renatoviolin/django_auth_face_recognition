@@ -13,16 +13,16 @@ The web-app is using [SB Admin 2](https://github.com/StartBootstrap/startbootstr
 
 
 # Application
-###Try to access before upload a picture.
-[Validation](validation_1.gif)
+### Try to access before upload a picture.
+[Validation](validation1.gif)
 
 
-###Uploading the picture in profile page, and trying to authenticate again.
-[Validation](validation_2.gif)
+### Uploading the picture in profile page, and trying to authenticate again.
+[Validation](validation2.gif)
 
 
-###Trying to cheat the app using a picture from a mobile screen.
-[Hacking](validation_3.gif)
+### Trying to cheat the app using a picture from a mobile screen.
+[Hacking](validation3.gif)
 
 
 ### Install
