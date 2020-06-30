@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+  <!-- 404 Error Text -->
+  <div class="text-center">
+    <div class="error mx-auto">NO PERMISSION</div>
+    <p class="text-gray-500 mb-0">It looks like you are trying to access a protected page...</p>
+    <br>
+    <a href="{% url 'redirect' %}">&larr; Back to your Home page</a>
+  </div>
+
+</div>
+<!-- /.container-fluid -->
+
+</div>
+<!-- End of Main Content -->
+{% endblock content %}

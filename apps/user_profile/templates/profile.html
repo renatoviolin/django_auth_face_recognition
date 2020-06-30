@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<form method="POST">
+    <div class="card-body p-0">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h1> Your profile info</h1>
+
+                <div class="row">
+                    <div class="col-lg-3 my-5">
+                        <img src="{{user.profile.profile_image.url}}" class="rounded float-right" width="250px">
+                    </div>
+                    <div class="card o-hidden border-0 shadow-lg my-5 col-lg-8">
+                        <div class="card-body">
+                            <h2>{{user.first_name}} {{user.last_name}} </h2>
+                            <p><strong>Email: </strong> {{user.email}} </p>
+                            <p><strong>Location: </strong> {{user.profile.location}} </p>
+                            <p><strong>Bio: </strong> {{user.profile.bio}} </p>
+                            <p><strong>Birthday: </strong> {{user.profile.birth_date}} </p>
+                            <div class="row align-items-end">
+                                <div class="col-lg-5">
+                                    <a href="{%url 'profile_update' %}" class="btn btn-primary btn-user btn-block">Update Profile</a>
+                                </div>
+                                <div class="col-lg-5 ">
+                                    <div class="text-left">
+                                        <a class="small" href="{% url 'redirect' %}">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</form>
+{% endblock content %}

@@ -1,0 +1,9 @@
+crispy_forms
+django_cleanup
+facenet_pytorch
+PIL
+numpy
+sklearn
+torch
+django
+mtcnn
