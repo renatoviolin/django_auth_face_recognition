@@ -12,17 +12,17 @@ To achieve the results, those models were are:
 The web-app is using [SB Admin 2](https://github.com/StartBootstrap/startbootstrap-sb-admin-2) free template, and sqlite database to store user profile and embeddings.
 
 
-### Application
-Try to access before upload a picture.
-![Validation](validation_1.gif)
+# Application
+###Try to access before upload a picture.
+[Validation](validation_1.gif)
 
 
-Uploading the picture in profile page, and trying to authenticate again.
-![Validation](validation_2.gif)
+###Uploading the picture in profile page, and trying to authenticate again.
+[Validation](validation_2.gif)
 
 
-Trying to cheat the app using a picture from a mobile screen.
-![Hacking](validation_3.gif)
+###Trying to cheat the app using a picture from a mobile screen.
+[Hacking](validation_3.gif)
 
 
 ### Install
